@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Random numbers",
-  "author": "David Aguilar",
+  "author": "Equipo 6",
   "build": {
     "appId": "com.itesm.randomNumbers"
   },
