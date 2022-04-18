@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme: Theme) =>
       borderRadius: "0.3px",
       boxShadow: "7px 7px rgba(155, 167, 192, .8)",
       border: "3px solid #454e56",
-      minHeight: "100px",
+      minHeight: "140px",
       "&:hover": {
         background: " #27AE60",
         color: ' #FFFFFF',
@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme: Theme) =>
       borderRadius: "3px",
       boxShadow: "7px 7px rgba(155, 167, 192, .8)",
       border: "3px solid #27AE60",
-      minHeight: "100px",
+      minHeight: "140px",
       color: ' #FFFFFF',
 
     },

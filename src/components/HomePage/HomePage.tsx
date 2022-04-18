@@ -59,7 +59,7 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
               <CardActionArea onClick={navToMidSquare.bind(null)}>
                 <Card className={classes.cards}>
                   <Typography className={classes.header} variant="h5">
-                    Método de los <br></br>Centros Cuadrados
+                    <br></br>Método de los <br></br>Centros Cuadrados
                   </Typography>
                 </Card>
               </CardActionArea>
@@ -69,7 +69,7 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
               <CardActionArea onClick={navToLinCong.bind(null)}>
                 <Card className={classes.cards}>
                   <Typography className={classes.header} variant="h5">
-                    Método de <br></br>Congruencia Lineal
+                    <br></br>Método de <br></br>Congruencia Lineal
                   </Typography>
                 </Card>
               </CardActionArea>
@@ -79,7 +79,7 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
               <CardActionArea onClick={navToLinMixed.bind(null)}>
                 <Card className={classes.cards}>
                   <Typography className={classes.header} variant="h5">
-                    Método <br></br>Congruencial Mixto
+                    <br></br>Método <br></br>Congruencial Mixto
                   </Typography>
                 </Card>
               </CardActionArea>
@@ -89,7 +89,7 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
               <CardActionArea onClick={navToMultiplicative.bind(null)}>
                 <Card className={classes.cards}>
                   <Typography className={classes.header} variant="h5">
-                    Generador <br></br>Multiplicativo
+                    <br></br>Generador <br></br>Multiplicativo
                   </Typography>
                 </Card>
               </CardActionArea>
@@ -99,7 +99,7 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
               <CardActionArea onClick={navToCombinedLineal.bind(null)}>
                 <Card className={classes.cards}>
                   <Typography className={classes.header} variant="h5">
-                    Método Congruencial<br></br> Lineal Combinado
+                    <br></br>Método Congruencial<br></br> Lineal Combinado
                   </Typography>
                 </Card>
               </CardActionArea>
@@ -124,6 +124,13 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
                       >
                        Nicolas Gazzolo Varela
                       </Typography>
+                      <Typography
+                        variant="subtitle1"
+                        align="left"
+                        className={classes.section2}
+                      >
+                       Andrea Villarruel Sernas
+                      </Typography>
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <Typography
@@ -139,6 +146,13 @@ const HomePage: React.FC<HomePageProps> = ({ history }) => {
                         className={classes.section2}
                       >
                         A01339945
+                      </Typography>
+                      <Typography
+                        variant="subtitle1"
+                        align="center"
+                        className={classes.section2}
+                      >
+                        A01656255
                       </Typography>
                     </Grid>
                     
